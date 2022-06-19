@@ -779,14 +779,16 @@ services
 }
 
 .services .item {
-  background-image: url(../images/service-item-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  /*background-image: url(../images/service-item-bg.jpg);*/
+  background-color: #a12c2f;
+  background-repeat: repeat;
+  background-size: 2em 2em;
   background-position: center center;
   border-radius: 20px;
   text-align: center;
   color: #fff;
   padding: 40px;
+  min-height: 18em;
 }
 
 .services .item .icon {
@@ -915,6 +917,11 @@ section.upcoming-meetings .categories h4 {
   margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
+}
+
+section.upcoming-meetings .categories ul{
+  display: flex;
+  flex-direction: column;
 }
 
 section.upcoming-meetings .categories ul li {
@@ -1285,7 +1292,7 @@ section.our-facts h2 {
 section.our-facts .video {
   text-align: center;
   margin-left: 70px;
-  background-image: url(../images/video-item-bg.jpg);
+  background-image: url(../img/img15.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

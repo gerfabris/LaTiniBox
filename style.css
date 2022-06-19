@@ -1,0 +1,48 @@
+/*Navbar*/
+.espaciado__verde{
+    height: 40px;
+}
+.nav__iconos{
+    font-size: 20px;
+}
+/*Btn section principal*/
+.main-button-red a{
+    font-weight: bold;
+
+}
+/*Modificación párrafo banner para mayor accesibilidad*/
+/* .main__banner__p{
+
+}
+.main__banner__p {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    padding: 1em;
+}
+.main__banner__p:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px #1f272b /* rgba(255, 255, 255, .5) */;
+    /*filter: blur(10px);
+} */
+
+.align-self-center{
+    width: 70%;
+}
+.info__formulario{
+    width: 30%;
+}
+.info__anchord{
+    text-decoration: none;
+    color: #ffffff;
+}
