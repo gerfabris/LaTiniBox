@@ -46,3 +46,25 @@
     text-decoration: none;
     color: #ffffff;
 }
+
+/*Section Principal*/
+@media screen and (max-width: 700px) {
+    .main-banner{
+        margin-bottom: 5em;
+        margin-top: 5em;
+    }   
+    .main__banner__p{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main-banner{
+        margin-top: 10em;
+    }   
+}
+@media screen and (max-width: 330px) {
+    .main-banner{
+        margin-top: 13em;
+        margin-bottom: 7em;
+    }   
+}
