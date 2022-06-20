@@ -45,12 +45,13 @@
 .info__anchord{
     text-decoration: none;
     color: #ffffff;
+	transition: all .3s;
 }
 
 /*Section Principal*/
 @media screen and (max-width: 700px) {
     .main-banner{
-        margin-bottom: 5em;
+        margin-bottom: 1em;
         margin-top: 5em;
     }   
     .main__banner__p{
