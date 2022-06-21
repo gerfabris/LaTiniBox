@@ -1,4 +1,3 @@
-
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -7,13 +6,11 @@ Table of contents
 03. global styles
 04. header
 05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
+06. services
+07. upcoming details
+08. our facts
+09. contact
+10. footer
 
 --------------------------------------------- */
 /* 
@@ -979,21 +976,13 @@ section.upcoming-details .categories .main-button-green a {
   top: 20px;
 }
 
-.detail-item .thumb .price span {
-  font-size: 16px;
-  color: #1f272b;
-  font-weight: 600;
-  background-color: rgba(250,250,250,0.9);
-  padding: 7px 12px;
-  border-radius: 10px;
-}
 
 .detail-item .down-content {
   background-color: #fff;
   padding: 10px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  min-height: 12rem;
+  min-height: 18rem;
 }
 
 
@@ -1015,7 +1004,6 @@ section.upcoming-details .categories .main-button-green a {
 }
 .container__btn__categories{
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   width: 100%;
   margin-top: 1em;
@@ -1040,237 +1028,6 @@ section.upcoming-details .categories .main-button-green a {
 .btn__categories:hover{
 	opacity: 0.9;
 	color: #2a2a2a;
-}
-
-/*
----------------------------------------------
-apply now
----------------------------------------------
-*/
-
-section.apply-now {
-  background-image: url(../images/apply-bg.jpg);
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 140px 0px;
-}
-
-section.apply-now .item {
-  background-color: rgba(250,250,250,0.15);
-  padding: 40px;
-  margin-bottom: 30px;
-}
-
-section.apply-now .item h3 {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-section.apply-now .item p {
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-.accordions {
-  border-radius: 20px;
-  padding: 40px;
-  background-color: #fff;
-  margin-left: 45px;
-}
-.accordions .accordion {
-  border-bottom: 1px solid #eee;
-}
-.accordions .last-accordion {
-  border-bottom: none;
-}
-.accordion-head {
-  padding: 20px;  
-  font-size: 18px;
-  font-weight: 700;
-  color: #1f272b;
-  cursor: pointer;
-  transition: color 200ms ease-in-out;
-  border-bottom: 1px solid #fff;
-}
-@media screen and (min-width: 768px) {
-  .accordion-head {
-    padding: 1rem;
-    font-size: 1.2rem;
-  }
-}
-.accordion-head .icon {
-  float: right;
-  transition: transform 200ms ease-in-out;
-}
-.accordion-head.is-open {
-  color: #7FAE77;
-  border-bottom: none;
-}
-.accordion-head.is-open .icon {
-  transform: rotate(45deg);
-}
-.accordion-body {
-  overflow: hidden;
-  height: 0;
-  transition: height 300ms ease-in-out;
-  border-bottom: 1px solid #fff;
-}
-.accordion-body > .content {
-  padding: 20px;
-  padding-top: 0;
-}
-
-
-/* 
----------------------------------------------
-courses
---------------------------------------------- 
-*/
-
-section.our-courses {
-  background-image: url(../images/details-bg.jpg);
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 140px;
-  padding-bottom: 130px;
-}
-
-.our-courses .item .down-content {
-  background-color: #fff;
-}
-
-.our-courses .item .down-content h4 {
-  padding: 25px;
-  font-size: 18px;
-  color: #1f272b;
-  text-align: center; 
-  border-bottom: 1px solid #eee;
-}
-
-.our-courses .item .down-content .info {
-  padding: 25px;
-}
-
-.our-courses .item .down-content .info ul li {
-  display: inline-block;
-  margin-right: 1px;
-}
-
-.our-courses .item .down-content .info ul li i {
-  color: #7FAE77;
-  font-size: 14px;
-}
-
-.our-courses .item .down-content .info span {
-  color: #a12c2f;
-  font-size: 15px;
-  font-weight: 600;
-  text-align: right;
-  display: inline-block;
-  width: 100%;
-}
-
-.our-courses .owl-nav {
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  transform: translateY(-45px);
-}
-
-.our-courses .owl-dots {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  margin-top: 40px;
-}
-
-.our-courses .owl-dots .owl-dot {
-  transition: all .5s;
-  width: 7px;
-  height: 7px;
-  background-color: #fff;
-  margin: 0px 5px;
-  border-radius: 50%;
-  outline: none;
-}
-
-.our-courses .owl-dots .active {
-  width: 24px;
-  height: 8px;
-  border-radius: 4px;
-}
-    
-.our-courses .owl-nav .owl-prev{
-  margin-right: 10px;
-  outline: none;
-  position: absolute;
-  left: -80px;
-}
-
-.our-courses .owl-nav .owl-prev span,
-.our-courses .owl-nav .owl-next span {
-  opacity: 0;
-}
-
-.our-courses .owl-nav .owl-prev:before {
-  display: inline-block;
-  font-family: 'FontAwesome';
-  color: #1e1e1e;
-  font-size: 25px;
-  font-weight: 700;
-  content: '\f104';
-  background-color: #fff;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  line-height: 50px;
-}
-
-.our-courses .owl-nav .owl-prev {
-  opacity: 1;
-  transition: all .5s;
-}
-
-.our-courses .owl-nav .owl-prev:hover {
-  opacity: 0.9;
-}
-
-.our-courses .owl-nav .owl-next {
-  opacity: 1;
-  transition: all .5s;
-}
-
-.our-courses .owl-nav .owl-next:hover {
-  opacity: 0.9;
-}
-
-.our-courses .owl-nav .owl-next{
-  margin-left: 10px;
-  outline: none;
-  position: absolute;
-  right: -85px;
-}
-
-.our-courses .owl-nav .owl-next:before {
-  display: inline-block;
-  font-family: 'FontAwesome';
-  color: #1e1e1e;
-  font-size: 25px;
-  font-weight: 700;
-  content: '\f105';
-  background-color: #fff;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  line-height: 50px;
 }
 
 
@@ -1488,7 +1245,6 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
